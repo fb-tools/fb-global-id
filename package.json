@@ -14,7 +14,7 @@
         "url" : "http://github.com/fb-tools/fb-global-id/fb-global-id.git"
     },
     "dependencies": {
-        "express": ">=4.2.0",
-        "phantom": ">=0.6.3"
+        "express": "~4.2.0",
+        "phantom": "~=0.6.3"
     }
 }
