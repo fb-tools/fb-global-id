@@ -1,0 +1,20 @@
+{
+    "name": "fb-global-id",
+    "version": "0.0.1",
+    "description": "An Express-based WebService which uses PhantomJS to get the global Facebook user_id, as well as the global profile_url from an app-scoped user_id",
+    "keywords": ["Facebook", "app-scoped", "user_id", "global", "profile_url"],
+    "homepage": "https://github.com/fb-tools/fb-global-id",
+    "private": false,
+    "license": "MIT",
+    "scripts": {
+        "start": "node ./app.js"
+    },
+    "repository": {
+        "type" : "git",
+        "url" : "http://github.com/fb-tools/fb-global-id/fb-global-id.git"
+    },
+    "dependencies": {
+        "express": ">=4.2.0",
+        "phantom": ">=0.6.3"
+    }
+}
