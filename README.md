@@ -28,4 +28,4 @@ PhantomJS: http://phantomjs.org/
 {"id":"123456789","app_scoped_id":"10203040506070","profile_url":"https://www.facebook.com/username","processing_time":1234}
 ```
 
-Be aware that it can take around 5 secs per call.
+Be aware that it can take around 1 second per call. Version 0.0.3 was optimized so that the login to Facebook is only done once with the application start.
